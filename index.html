@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Офіційна візитка Василя Навчального — вайб кодера з ліцензією на хороший настрій і робочий дедлайн."
+    />
+    <title>Василь Навчальний — вайб кодер</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">До змісту</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#hero">ВН</a>
+        <nav class="nav" aria-label="Основна навігація">
+          <a href="#about">Про мене</a>
+          <a href="#skills">Навички</a>
+          <a href="#competencies">Компетенції</a>
+          <a href="#services">Послуги</a>
+          <a href="#reviews">Відгуки</a>
+          <a href="#contact">Контакт</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Приватний кабінет вайб-консалтингу</p>
+            <h1>Василь Навчальний</h1>
+            <p class="role">Вайб кодер · дипломований оптиміст інтерфейсів</p>
+            <p class="lead">
+              Перекладаю бізнес-запит «зробіть красиво, але серйозно» на HTML і CSS,
+              зберігаючи корпоративну стриманість і ледь помітну усмішку в
+              <code>border-radius</code>.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Замовити вайб</a>
+              <a class="btn btn-ghost" href="#services">Прайс настрою</a>
+            </div>
+            <dl class="hero-meta">
+              <div>
+                <dt>Стаж</dt>
+                <dd>7 років розмов із консоллю</dd>
+              </div>
+              <div>
+                <dt>Локація</dt>
+                <dd>Між Figma і продакшеном</dd>
+              </div>
+              <div>
+                <dt>Режим</dt>
+                <dd>Діловий, з кавою 38°</dd>
+              </div>
+            </dl>
+          </div>
+
+          <aside class="card-portrait" aria-label="Візитка">
+            <div class="portrait-frame">
+              <div class="portrait" role="img" aria-label="Стилізований портрет Василя">
+                <span class="portrait-initials">ВН</span>
+                <span class="portrait-tie" aria-hidden="true"></span>
+              </div>
+              <div class="stamp" aria-hidden="true">
+                Сертифікат<br />ISO-9001-ЧУТТЯ
+              </div>
+            </div>
+            <blockquote>
+              «Якщо верстка зійшлася з макетом — це вже IPO емоцій.»
+            </blockquote>
+            <p class="portrait-note">Офіційний девіз кабінету, 2026</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow">Curriculum Vibe</p>
+            <h2>Коротко про фахівця</h2>
+          </header>
+          <div class="about-grid">
+            <p>
+              Василь починав кар’єру як людина, яка «трохи підправить відступи».
+              Через сім років це офіційно називається <strong>вайб кодинг</strong>:
+              серйозний костюм, акуратна типографіка і вміння пояснити клієнту,
+              чому кнопка має бути саме цього відтінку графіту.
+            </p>
+            <p>
+              Освіта — Академія стриманого ентузіазму, факультет
+              «Будь ласка, працюй». Науковий керівник — Chrome DevTools.
+              Дипломна робота: адаптивне меню, яке не ображається на вузький екран.
+            </p>
+            <ul class="facts">
+              <li>
+                <span>Улюблений інструмент</span>
+                Інспектор елементів і спокійна музика без слів
+              </li>
+              <li>
+                <span>Робоча мова</span>
+                Українська, CSS і дипломатичне «зараз подивимось»
+              </li>
+              <li>
+                <span>Суперсила</span>
+                Знаходить зайвий піксель на відстані рукостискання
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="skills">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow">Офіційний реєстр умінь</p>
+            <h2>Мої навички</h2>
+            <p class="lead">
+              Оцінки виставлені внутрішньою комісією з трьох осіб: Василем,
+              дзеркалом і останнім успішним деплоєм.
+            </p>
+          </header>
+          <ul class="skill-list">
+            <li class="skill">
+              <div class="skill-top">
+                <h3>HTML</h3>
+                <span>96%</span>
+              </div>
+              <p>Семантика, доступність і вміння не обгортати все в один <code>div</code>.</p>
+              <div
+                class="skill-track"
+                role="meter"
+                aria-label="HTML"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="96"
+              >
+                <span class="skill-fill" style="--level: 96%"></span>
+              </div>
+            </li>
+            <li class="skill">
+              <div class="skill-top">
+                <h3>CSS</h3>
+                <span>94%</span>
+              </div>
+              <p>Flex, Grid і переговорна сила <code>gap</code> без зайвої паніки.</p>
+              <div
+                class="skill-track"
+                role="meter"
+                aria-label="CSS"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="94"
+              >
+                <span class="skill-fill" style="--level: 94%"></span>
+              </div>
+            </li>
+            <li class="skill">
+              <div class="skill-top">
+                <h3>Адаптив</h3>
+                <span>91%</span>
+              </div>
+              <p>Сайт тримає поставу і на моніторі ради, і в черзі за кавою.</p>
+              <div
+                class="skill-track"
+                role="meter"
+                aria-label="Адаптив"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="91"
+              >
+                <span class="skill-fill" style="--level: 91%"></span>
+              </div>
+            </li>
+            <li class="skill">
+              <div class="skill-top">
+                <h3>Читання макетів</h3>
+                <span>83%</span>
+              </div>
+              <p>Перекладає Figma-натяки мовою відступів, не ображаючи пікселі.</p>
+              <div
+                class="skill-track"
+                role="meter"
+                aria-label="Читання макетів"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="83"
+              >
+                <span class="skill-fill" style="--level: 83%"></span>
+              </div>
+            </li>
+            <li class="skill">
+              <div class="skill-top">
+                <h3>Git</h3>
+                <span>67%</span>
+              </div>
+              <p>Комітить, коли вайб дозволяє. Ребейз — лише в білих рукавичках.</p>
+              <div
+                class="skill-track"
+                role="meter"
+                aria-label="Git"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="67"
+              >
+                <span class="skill-fill" style="--level: 67%"></span>
+              </div>
+            </li>
+            <li class="skill">
+              <div class="skill-top">
+                <h3>Кавовий дедлайн</h3>
+                <span>100%</span>
+              </div>
+              <p>Поки в чашці 38°, рішення знаходиться саме собою. Майже.</p>
+              <div
+                class="skill-track"
+                role="meter"
+                aria-label="Кавовий дедлайн"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="100"
+              >
+                <span class="skill-fill" style="--level: 100%"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="competencies">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow">Компетенції</p>
+            <h2>Що вміє кабінет</h2>
+          </header>
+          <div class="cards">
+            <article class="card">
+              <h3>HTML етикет</h3>
+              <p>
+                Семантичні теги, ніби розсадка гостей на офіційному прийомі:
+                кожен елемент знає, куди сісти і з ким вітатися.
+              </p>
+            </article>
+            <article class="card">
+              <h3>CSS дипломатія</h3>
+              <p>
+                Flex і Grid як протокол переговорів. Медіазапити — щоб сайт не
+                падав у паніку, щойно з’являється телефон.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Вайб-менеджмент</h3>
+              <p>
+                Підтримує корпоративний тон навіть тоді, коли в макеті просять
+                «трохи веселіше, але щоб рада директорів не помітила».
+              </p>
+            </article>
+            <article class="card">
+              <h3>Дедлайн-феншуй</h3>
+              <p>
+                Розкладає завдання так, щоб і кнопка з’явилась, і настрій не
+                роз’їхався по <code>margin: auto</code>.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow">Прайс-лист настрою</p>
+            <h2>Послуги</h2>
+          </header>
+          <div class="table-wrap" role="region" aria-label="Прайс послуг" tabindex="0">
+            <table>
+              <thead>
+                <tr>
+                  <th>Послуга</th>
+                  <th>Що входить</th>
+                  <th>Тариф</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Аудит вайбу</td>
+                  <td>Дивимось сайт суворо, говоримо м’яко</td>
+                  <td>1 чашка еспресо</td>
+                </tr>
+                <tr>
+                  <td>Лендінг «як візитка»</td>
+                  <td>Одна сторінка, нуль хаосу, адаптив до кишені</td>
+                  <td>За домовленістю з музою</td>
+                </tr>
+                <tr>
+                  <td>Переклад з «зробіть вау»</td>
+                  <td>На ділову палітру з одним золотим акцентом</td>
+                  <td>Півдня і спокій</td>
+                </tr>
+                <tr>
+                  <td>Нічний фікс пікселя</td>
+                  <td>Той самий, який «ніхто не помітить»</td>
+                  <td>Подяка в LinkedIn</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="reviews">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow">Репутація</p>
+            <h2>Відгуки колег по цеху</h2>
+          </header>
+          <div class="reviews">
+            <figure class="review">
+              <blockquote>
+                Василь єдиний, хто назвав мій <code>div</code>-суп «архітектурою»
+                і не розсміявся вголос. Тільки в брів.
+              </blockquote>
+              <figcaption>Марина Flexова, UX-архітекторка</figcaption>
+            </figure>
+            <figure class="review">
+              <blockquote>
+                Замовили «серйозний сайт». Отримали серйозний сайт, який тайком
+                підморгує в футері. Рада директорів у захваті, хоч і не зізнається.
+              </blockquote>
+              <figcaption>ТОВ «Стримані Рішення»</figcaption>
+            </figure>
+            <figure class="review">
+              <blockquote>
+                Lighthouse поставив 100, а Василь сказав: «Це базовий етикет».
+                Ми досі вчимося жити з такою планкою.
+              </blockquote>
+              <figcaption>Браузер Chrome, неформально</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Приймальня</p>
+            <h2>Напишіть Василю</h2>
+            <p class="lead">
+              Відповідає в робочі години всесвіту: коли кава ще гаряча, а баг уже
+              не впевнений у собі.
+            </p>
+          </div>
+          <address class="contact-card">
+            <p>
+              <span>Електронна пошта</span>
+              <a href="mailto:vasyl.navchalnyi@vibe.office">vasyl.navchalnyi@vibe.office</a>
+            </p>
+            <p>
+              <span>Телефон приймальні</span>
+              <a href="tel:+380441337042">+38 (044) 133-70-42</a>
+            </p>
+            <p>
+              <span>Кабінет</span>
+              вул. Акуратного Відступу, 16, каб. 4px
+            </p>
+            <p>
+              <span>Графік</span>
+              Пн–Пт, 09:00–18:00 (і трохи після, якщо вайб просить)
+            </p>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Василь Навчальний. Усі вайби захищено діловим тоном.</p>
+        <p class="footer-note">Зроблено руками, CSS і легким почуттям гумору.</p>
+      </div>
+    </footer>
+  </body>
+</html>
